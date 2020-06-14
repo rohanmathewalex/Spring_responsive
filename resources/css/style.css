@@ -1,0 +1,128 @@
+/* ----------------------------------------------- */
+/* BASIC SETUP */
+/* ----------------------------------------------- */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: #fff;
+    color: #555;
+    font-family: 'Lato', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+    overflow-x: hidden;
+}
+
+/* ----------------------------------------------- */
+/* REUSABLE COMPONENTS */
+/* ----------------------------------------------- */
+.row {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+section {
+    padding: 80px 0;
+}
+
+.box {
+    padding: 1%;
+}
+/* ----- HEADINGS ----- */
+
+
+/* ----------------------------------------------- */
+/* NavBAR */
+/* ----------------------------------------------- */
+.main-nav{
+     
+    margin-left: 20px;
+    float: right;
+}
+ .nav-btn{
+     border-radius: 30px;
+ }
+ 
+/* ----------------------------------------------- */
+/* Section1 */
+/* ----------------------------------------------- */
+.section1{
+    margin-top: 40px;
+}
+.section1-content{
+    margin-top: 60px;
+}
+
+.main-header-conatiner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.publish-btn {
+    padding: 4px 10px 4px 10px;
+    border-radius: 30px;
+    border: none;
+    background-color: rgb(250, 78, 10);
+    color: #fff;
+}
+
+
+
+/* ----------------------------------------------- */
+/* Section2 */
+/* ----------------------------------------------- */
+
+ .section2-img{
+     width: 50%;
+     margin-left: 280px;
+ }
+
+ /* ----------------------------------------------- */
+/* Section3 */
+/* ----------------------------------------------- */
+.section-3 {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.text-style{
+    text-align: center;
+}
+ /* ----------------------------------------------- */
+/* Section4 */
+/* ----------------------------------------------- */
+.card-1-img{
+    width: 15%;
+    border-radius: 20px;
+    margin: 12px ;
+     
+     
+}
+ .instaCards{
+     border-style: none;
+ }
+/* ----------------------------------------------- */
+/* Section11 */
+/* ----------------------------------------------- */
+ .sus{
+     
+     width: 30%;
+     margin-left: 500px;
+     border-radius: 30px;
+
+ }
+ /* ----------------------------------------------- */
+/* Footer */
+/* ----------------------------------------------- */
+.colors-footer{
+    background-color: rgb(0, 174, 255);
+    color: white;
+}
